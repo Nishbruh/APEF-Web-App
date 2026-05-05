@@ -311,7 +311,7 @@ with st.sidebar:
     st.divider()
     st.markdown(
         '<div style="font-size:0.75rem; color:var(--apef-muted);">'
-        "Master's Dissertation<br>MSc Computer Science<br>2025-2026</div>",
+        "Master's Dissertation<br>MSc. Artificial Intelligence<br>2025-2026</div>",
         unsafe_allow_html=True
     )
 
