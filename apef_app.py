@@ -415,7 +415,8 @@ if page == "Home":
 
     with col_right:
         st.markdown("### Settings")
-        model_choice   = st.selectbox("Model", ["gpt-4o-mini", "gpt-4o"])
+        # model_choice   = st.selectbox("Model", ["gpt-4o-mini", "gpt-4o"])
+        model_choice   = st.selectbox("Model", ["gpt-4o-mini"])
         pressure_turns = st.slider("Adversarial pressure turns", 1, 3, 3)
         show_reasoning = st.checkbox(
             "Show full reasoning",
